@@ -21,3 +21,10 @@ class Template extends Component {
   
   render() {    
     return (
+      
+			<Navbar bg="dark" variant="dark">
+				<button className="d-lg-none toggle-sidebar"><span className="navbar-toggler-icon"></span></button>
+				<Navbar.Brand href="/">CanvasJS Examples</Navbar.Brand><span className="hidden-xs text-muted">React</span>
+			  </Navbar>		  
+			  <BrowserRouter>		  
+					<Row>
