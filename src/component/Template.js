@@ -16,3 +16,8 @@ import {
 } from "react-router-dom";
 
 import ColumnChart from "./column charts/Column Chart";
+
+class Template extends Component {
+  
+  render() {    
+    return (
