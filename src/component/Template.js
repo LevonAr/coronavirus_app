@@ -172,3 +172,71 @@ class Template extends Component {
 								
 							</ListGroup>
 						</Nav>
+							<Col xl={{ span: 7, offset: 3 }} lg={{ span: 8, offset: 3 }} xs={{ span: 8, offset: 2 }}>
+								<Container>
+									<div className="content">
+										<Route exact path="/" component={ColumnChart}/>
+										<Route exact path="/chart-with-index-label" component={ColumnChartwithIndexlabel}/>
+										<Route path="/chart-with-crosshair" component={ChartWithCrosshair}/>
+										<Route path="/chart-zoom-pan" component={ChartWithZoom}/>
+										<Route path="/animated-chart" component={AnimatedChart}/>
+										<Route path="/multiseries-chart" component={MultiseriesChart}/>
+										<Route path="/chart-with-multiple-axes" component={MultipleAxisChart}/>
+										<Route path="/chart-axis-scale-break" component={ChartWithScaleBreaks}/>
+										<Route path="/chart-with-logarithmic-axis" component={ChartWithLogarithmicAxis}/>
+										<Route path="/performance-demo-chart" component={PerformanceDemo}/>
+										<Route path="/drilldown-chart" component={ChartWithDrillDown}/>
+
+										<Route path="/line-chart" component={LineChart}/>
+										<Route path="/spline-chart" component={SplineChart}/>
+										<Route path="/step-line-chart" component={StepLineChart}/>
+
+										<Route path="/area-chart" component={AreaChart}/>
+										<Route path="/multi-series-area-chart" component={MultiSeriesAreaChart}/>
+										<Route path="/spline-area-chart" component={SplineAreaChart}/>
+										<Route path="/step-area-chart" component={StepAreaChart}/>
+										<Route path="/range-area-chart" component={RangeAreaChart}/>
+										<Route path="/range-spline-area-chart" component={RangeSplineAreaChart}/>
+										<Route path="/stacked-area-chart" component={StackedAreaChart}/>
+										<Route path="/stacked-area-100-chart" component={StackedArea100Chart}/>
+
+										<Route path="/column-chart" component={ColumnChart}/>
+										<Route path="/bar-chart" component={BarChart}/>
+										<Route path="/range-column-chart" component={RangeColumnChart}/>
+										<Route path="/stacked-column-chart" component={StackedColumnChart}/>
+										<Route path="/stacked-column-100-chart" component={StackedColumn100Chart}/>
+										<Route path="/range-bar-chart" component={RangeBarChart}/>
+										<Route path="/stacked-bar-chart" component={StackedBarChart}/>
+										<Route path="/stacked-bar-100-chart" component={StackedBar100Chart}/>
+										<Route path="/waterfall-chart" component={WaterfallChart}/>
+
+										<Route path="/pie-chart" component={PieChart}/>
+										<Route path="/pie-chart-index-label" component={PieChartWithCustomization}/>
+										<Route path="/doughnut-chart" component={DoughnutChart}/>
+										<Route path="/funnel-chart" component={FunnelChart}/>
+										<Route path="/funnel-chart-with-custom-neck" component={FunnelChartWithCustomNeck}/>
+										<Route path="/pyramid-chart" component={PyramidChart}/>
+
+										<Route path="/candlestick-chart" component={CandlestickChart}/>
+										<Route path="/ohlc-chart" component={OhlcChart}/>
+
+										<Route path="/scatter-chart" component={ScatterChart}/>
+										<Route path="/scatter-chart-with-custom-marker" component={ScatterChartWithCustomMarkers}/>
+										<Route path="/bubble-chart" component={BubbleChart}/>
+
+										<Route path="/box-whisker-chart" component={BoxAndWhiskerChart}/>
+										<Route path="/box-whisker-chart-with-customization" component={BoxAndWhiskerChartWithCustomization}/>
+
+										<Route path="/error-chart" component={ErrorChart}/>
+										<Route path="/error-line-chart" component={ErrorLineChart}/>
+										<Route path="/pareto-chart" component={ParetoChart}/>
+										<Route path="/column-line-area-chart" component={ColumnLineAreaChart}/>
+
+										<Route path="/dynamic-line-chart" component={DynamicLineChart}/>
+										<Route path="/dynamic-column-chart" component={DynamicColumnChart}/>
+										<Route path="/dynamic-multi-series-chart" component={DynamicMultiSeriesChart}/>
+
+
+									</div>
+							</Container>
+						</Col>					
