@@ -14,3 +14,5 @@ import {
   NavLink,
   BrowserRouter
 } from "react-router-dom";
+
+import ColumnChart from "./column charts/Column Chart";
