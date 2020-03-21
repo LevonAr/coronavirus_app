@@ -240,3 +240,6 @@ class Template extends Component {
 									</div>
 							</Container>
 						</Col>					
+					</Row>			
+			  </BrowserRouter>	
+			</div>
