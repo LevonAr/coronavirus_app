@@ -243,3 +243,8 @@ class Template extends Component {
 					</Row>			
 			  </BrowserRouter>	
 			</div>
+    );
+  }
+}
+
+export default Template;
