@@ -205,9 +205,6 @@ class Template extends Component {
 										<Route path="/candlestick-chart" component={CandlestickChart}/>
 										<Route path="/ohlc-chart" component={OhlcChart}/>
 
-										<Route path="/scatter-chart" component={ScatterChart}/>
-										<Route path="/scatter-chart-with-custom-marker" component={ScatterChartWithCustomMarkers}/>
-										<Route path="/bubble-chart" component={BubbleChart}/>
 
 										<Route path="/box-whisker-chart" component={BoxAndWhiskerChart}/>
 										<Route path="/box-whisker-chart-with-customization" component={BoxAndWhiskerChartWithCustomization}/>
