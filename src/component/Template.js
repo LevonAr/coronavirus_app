@@ -84,11 +84,7 @@ class Template extends Component {
 										<ListGroup.Item> <NavLink to="/column-chart">Column Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/bar-chart">Bar Chart</NavLink></ListGroup.Item>									
 										<ListGroup.Item> <NavLink to="/range-column-chart">Range Column Chart</NavLink></ListGroup.Item>
-										<ListGroup.Item> <NavLink to="/stacked-column-chart">Stacked Column Chart</NavLink></ListGroup.Item>
-										<ListGroup.Item> <NavLink to="/stacked-column-100-chart">Stacked Column 100% Chart</NavLink></ListGroup.Item>
-										<ListGroup.Item> <NavLink to="/range-bar-chart">Range Bar Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/stacked-bar-chart">Stacked Bar Chart</NavLink></ListGroup.Item>
-										<ListGroup.Item> <NavLink to="/stacked-bar-100-chart">Stacked Bar 100% Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/waterfall-chart">Waterfall Chart</NavLink></ListGroup.Item>
 									</ListGroup>
 								</ListGroup>
