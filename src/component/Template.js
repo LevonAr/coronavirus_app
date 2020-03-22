@@ -123,13 +123,7 @@ class Template extends Component {
 								<ListGroup.Item>
 									<a href="#scatterCharts" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><span>SCATTER & BUBBLE CHARTS</span></a>
 								</ListGroup.Item>
-								<ListGroup>
-									<ListGroup className="sub-menu collapse" id="scatterCharts">
-										<ListGroup.Item> <NavLink to="/scatter-chart">Statter Chart</NavLink></ListGroup.Item>
-										<ListGroup.Item> <NavLink to="/scatter-chart-with-custom-marker">Scatter Chart with Custom Marker</NavLink></ListGroup.Item>
-										<ListGroup.Item> <NavLink to="/bubble-chart">Bubble Chart</NavLink></ListGroup.Item>
-									</ListGroup>
-								</ListGroup>
+							
 								<ListGroup.Item role="separator" className="divider"></ListGroup.Item>
 								
 								<ListGroup.Item>
