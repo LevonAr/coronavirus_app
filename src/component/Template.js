@@ -66,7 +66,6 @@ class Template extends Component {
 									<ListGroup className="sub-menu collapse" id="areaCharts">
 										<ListGroup.Item> <NavLink to="/area-chart">Area Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/multi-series-area-chart">Multi Series Area Chart with Date Time Axis</NavLink></ListGroup.Item>									
-										<ListGroup.Item> <NavLink to="/spline-area-chart">Spline Area Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/step-area-chart">Step Area Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/range-area-chart">Range Area Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/range-spline-area-chart">Range Spline Area Chart</NavLink></ListGroup.Item>
