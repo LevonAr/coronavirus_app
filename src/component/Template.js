@@ -55,7 +55,6 @@ class Template extends Component {
 									<ListGroup className="sub-menu collapse" id="lineCharts">
 										<ListGroup.Item> <NavLink to="/line-chart">Line Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/spline-chart">Spline Chart</NavLink></ListGroup.Item>									
-										<ListGroup.Item> <NavLink to="/step-line-chart">Step Line Chart</NavLink></ListGroup.Item>
 									</ListGroup>
 								</ListGroup>
 								<ListGroup.Item role="separator" className="divider"></ListGroup.Item>
