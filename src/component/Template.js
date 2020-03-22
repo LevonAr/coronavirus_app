@@ -198,10 +198,7 @@ class Template extends Component {
 										<Route path="/stacked-area-chart" component={StackedAreaChart}/>
 										<Route path="/stacked-area-100-chart" component={StackedArea100Chart}/>
 
-										<Route path="/column-chart" component={ColumnChart}/>
 										<Route path="/bar-chart" component={BarChart}/>
-										<Route path="/range-column-chart" component={RangeColumnChart}/>
-										<Route path="/stacked-column-chart" component={StackedColumnChart}/>
 										<Route path="/stacked-column-100-chart" component={StackedColumn100Chart}/>
 										<Route path="/range-bar-chart" component={RangeBarChart}/>
 										<Route path="/stacked-bar-chart" component={StackedBarChart}/>
