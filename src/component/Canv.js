@@ -46,3 +46,4 @@ var CanvasJSReact = {
     CanvasJS: CanvasJS
 
 };	    
+export default CanvasJSReact;
