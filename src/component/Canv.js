@@ -40,7 +40,7 @@ class CanvasJSChart extends React.Component {
 		
 }
 
-var CanvasJSReact 
+var CanvasJSReact = {
 
     CanvasJSChart: CanvasJSChart,
     CanvasJS: CanvasJS
