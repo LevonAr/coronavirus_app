@@ -15,8 +15,7 @@ class CanvasJSChart extends React.Component {
 		//Create Chart and Render		
 		this.chart = new CanvasJS.Chart(this.chartContainerId, this.options);
 		this.chart.render();
-		if(this.props.onRef)
-			this.props.onRef(this.chart);
+	
 	}	
 	shouldComponentUpdate(nextProps, nextState){
 			//Check if Chart-options has changed and determine if component has to be updated
