@@ -45,4 +45,4 @@ var CanvasJSReact
     CanvasJSChart: CanvasJSChart,
     CanvasJS: CanvasJS
 
-	    
+};	    
