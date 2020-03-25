@@ -7,7 +7,6 @@ class CanvasJSChart extends React.Component {
 	constructor(props) {
 		super(props);		
 		this.options = props.options ? props.options : {};		
-		this.containerProps = props.containerProps ? props.containerProps : {width: "100%", position: "relative"};
 		this.chartContainerId = "canvasjs-react-chart-container-" + CanvasJSChart._cjsContainerId++;
 	}	
 	componentDidMount() {
