@@ -12,7 +12,7 @@ class CanvasJSChart extends React.Component {
 	
 	}	
 	shouldComponentUpdate(nextProps, nextState){
-			//Check if Chart-options has changed and determine if component has to be updated
+			//Check if Chart-options has changed  determine if component has to be updated
 	}
 		
 	componentWillUnmount() {
