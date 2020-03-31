@@ -10,7 +10,6 @@ class CanvasJSChart extends React.Component {
 	}	
 	
 	
-	}	
 	shouldComponentUpdate(nextProps, nextState){
 	}
 		
