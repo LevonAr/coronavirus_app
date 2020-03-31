@@ -8,8 +8,7 @@ class CanvasJSChart extends React.Component {
 		super(props);		
 		this.chartContainerId = "canvasjs-react-chart-container-" + CanvasJSChart._cjsContainerId++;
 	}	
-	componentDidMount() {
-		//Create Chart and Render		
+	
 	
 	}	
 	shouldComponentUpdate(nextProps, nextState){
