@@ -21,7 +21,6 @@ class CanvasJSChart extends React.Component {
 	}
 	componentWillUnmount() {
 		//Destroy chart and remove reference
-		if(this.props.onRef)
 			this.props.onRef(undefined);
 	}	
 	render() {		
