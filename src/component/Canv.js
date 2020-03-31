@@ -16,7 +16,7 @@ class CanvasJSChart extends React.Component {
 		return !(nextProps.options === this.options);
 	}
 	componentDidUpdate() {
-		//Update Chart Options & Render
+		
 	}
 	componentWillUnmount() {
 		//Destroy chart and remove reference
