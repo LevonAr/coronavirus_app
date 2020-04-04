@@ -7,3 +7,5 @@ const Card = ({ id }) => {
       <div>
       </div>
     </div>
+  );
+}
