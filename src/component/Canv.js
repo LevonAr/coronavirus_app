@@ -5,6 +5,7 @@ CanvasJS = CanvasJS.Chart ? CanvasJS : window.CanvasJS;
 class CanvasJSChart extends React.Component {
 	static _cjsContainerId = 0
 	constructor(props) {
+		
 		super(props);		
 		this.chartContainerId = "canvasjs-react-chart-container-" + CanvasJSChart._cjsContainerId++;
 	}	
