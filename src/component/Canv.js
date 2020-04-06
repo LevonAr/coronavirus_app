@@ -21,7 +21,8 @@ class CanvasJSChart extends React.Component {
 		//Destroy chart and remove reference
 			this.props.onRef(undefined);
 	}	
-	render() {		
+	render() 
+	{		
 		//return React.createElement('div', { id: this.chartContainerId, style: this.containerProps });		
 		return <div id = {this.chartContainerId} />		
 	}			
