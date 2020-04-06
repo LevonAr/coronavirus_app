@@ -12,10 +12,12 @@ class CanvasJSChart extends React.Component {
 	}	
 	
 	
-	shouldComponentUpdate(nextProps, nextState){
+	shouldComponentUpdate(nextProps, nextState)
+	{
 	}
 		
-	componentWillUnmount() {
+	componentWillUnmount() 
+	{
 		//Destroy chart and remove reference
 			this.props.onRef(undefined);
 	}	
