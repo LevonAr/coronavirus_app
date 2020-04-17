@@ -18,3 +18,6 @@ class ColumnChartUSA extends React.Component {
 	componentDidMount() {
 		fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/time_series/new_json.json")
         .then((response) => {
+            return response.text();
+        })
+        .then((data) => {
