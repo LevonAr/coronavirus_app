@@ -70,3 +70,4 @@ class ColumnChartUSA extends React.Component {
         </VictoryChart>
       </div>
     );
+  }
