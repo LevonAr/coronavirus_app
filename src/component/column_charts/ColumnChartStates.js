@@ -8,3 +8,4 @@ const anime1 = {
 }
 
 class ColumnChartUSA extends React.Component {
+	constructor(props){
