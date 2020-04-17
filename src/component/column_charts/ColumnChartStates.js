@@ -14,3 +14,7 @@ class ColumnChartUSA extends React.Component {
 			data_array: []
         	}
 	}
+	
+	componentDidMount() {
+		fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/time_series/new_json.json")
+        .then((response) => {
