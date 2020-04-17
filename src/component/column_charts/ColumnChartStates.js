@@ -52,3 +52,9 @@ class ColumnChartUSA extends React.Component {
 
 
   render() {
+      <div>
+        <h1>Victory Tutorial</h1>
+        <VictoryChart
+          domainPadding={30}
+          theme={VictoryTheme.grayscale}
+        >
