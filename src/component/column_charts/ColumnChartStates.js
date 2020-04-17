@@ -9,3 +9,8 @@ const anime1 = {
 
 class ColumnChartUSA extends React.Component {
 	constructor(props){
+		super(props)
+		this.state = {
+			data_array: []
+        	}
+	}
