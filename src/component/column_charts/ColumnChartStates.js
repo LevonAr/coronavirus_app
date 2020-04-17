@@ -66,3 +66,6 @@ class ColumnChartUSA extends React.Component {
               x={"date"}
 			  y={"cases"}
             />
+          </VictoryStack>
+        </VictoryChart>
+      </div>
