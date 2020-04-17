@@ -58,3 +58,11 @@ class ColumnChartUSA extends React.Component {
           domainPadding={30}
           theme={VictoryTheme.grayscale}
         >
+          <VictoryStack
+            colorScale={"warm"}
+          >
+            <VictoryBar
+              data={this.state.data_array}
+              x={"date"}
+			  y={"cases"}
+            />
