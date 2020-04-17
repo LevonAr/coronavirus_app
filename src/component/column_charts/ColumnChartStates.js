@@ -6,3 +6,5 @@ const anime1 = {
   duration: 2000,
   onLoad: { duration: 1000 }
 }
+
+class ColumnChartUSA extends React.Component {
