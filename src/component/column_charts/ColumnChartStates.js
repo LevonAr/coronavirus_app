@@ -48,3 +48,7 @@ class ColumnChartUSA extends React.Component {
 			})
 			
         })
+	}
+
+
+  render() {
