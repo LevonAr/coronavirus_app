@@ -10,3 +10,4 @@ class ColumnChartReChart extends PureComponent {
     this.state = {
       data_array: []
     }
+  }
