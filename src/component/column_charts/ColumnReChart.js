@@ -3,6 +3,7 @@ import {
   BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
 
+class ColumnChartReChart extends PureComponent {
 
   constructor(props){
     super(props)
