@@ -17,3 +17,20 @@ class ColumnChartReChart extends PureComponent {
       .then((response) => {
         return response.text();
       })  
+      .then((data) => {
+
+        let step_a = JSON.parse(data)
+
+        let step_b = step_a[this.props.info]
+
+        let result = Object.entries(step_b); 
+
+        let state_object = []
+
+        for(let i = 0; i < result.length; i++) { 
+          let state_obj = {}
+          state_obj["date"] = result[i][0]
+          state_obj["cases"] = result[i][1]
+
+          state_object.push(state_obj)
+        }
