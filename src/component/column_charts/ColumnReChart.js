@@ -44,3 +44,7 @@ class ColumnChartReChart extends PureComponent {
         })
         
       })
+  }
+
+  render() {
+    return (
