@@ -34,3 +34,7 @@ class ColumnChartReChart extends PureComponent {
 
           state_object.push(state_obj)
         }
+
+        console.log(state_object)
+
+        const data2012 = state_object
