@@ -60,3 +60,10 @@ class ColumnChartReChart extends PureComponent {
         <br>
         </br>
         <div class="shadow-lg p-3 mb-5 rounded bg-white border border-dark" >
+        <BarChart
+          width={1070}
+          height={400}
+          data={this.state.data_array}
+          margin={{
+            top: 5, right: 60, left: 20, bottom: 5,
+          }}
