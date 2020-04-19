@@ -75,3 +75,9 @@ class ColumnChartReChart extends PureComponent {
           <Legend height={30} verticalAlign="top" payload = {[{ value: "Daily new cases in "+this.props.info, type: 'line' }]}/>
           <Bar dataKey="cases" fill="#8884d8" />
         </BarChart>
+        </div>
+
+        <a href="https://github.com/CSSEGISandData/COVID-19"><center>Source: Johns Hopkins University CSSE</center></a>
+
+        <br></br>
+        <br></br>
