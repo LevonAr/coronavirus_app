@@ -48,3 +48,14 @@ class ColumnChartReChart extends PureComponent {
 
   render() {
     return (
+      
+            <div>
+
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
+        </br>
