@@ -68,3 +68,4 @@ class ColumnChartReChart extends PureComponent {
             top: 5, right: 60, left: 20, bottom: 5,
           }}
         >
+          <CartesianGrid strokeDasharray="3 3" />
