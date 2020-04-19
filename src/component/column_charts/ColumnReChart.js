@@ -72,3 +72,4 @@ class ColumnChartReChart extends PureComponent {
           <XAxis dataKey="date" minTickGap={20}/>
           <YAxis />
           <Tooltip />
+          <Legend height={30} verticalAlign="top" payload = {[{ value: "Daily new cases in "+this.props.info, type: 'line' }]}/>
