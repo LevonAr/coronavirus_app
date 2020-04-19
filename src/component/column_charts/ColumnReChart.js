@@ -337,3 +337,7 @@ class ColumnChartReChart extends PureComponent {
                 </NavLink> 
 
                 </>
+            </div>
+
+
+      </div> 
