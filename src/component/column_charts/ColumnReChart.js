@@ -67,3 +67,4 @@ class ColumnChartReChart extends PureComponent {
           margin={{
             top: 5, right: 60, left: 20, bottom: 5,
           }}
+        >
