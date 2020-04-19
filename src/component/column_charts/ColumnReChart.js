@@ -344,3 +344,5 @@ class ColumnChartReChart extends PureComponent {
     );
   }
 }
+
+export default ColumnChartStates;
