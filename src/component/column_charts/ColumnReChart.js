@@ -70,3 +70,4 @@ class ColumnChartReChart extends PureComponent {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" minTickGap={20}/>
+          <YAxis />
