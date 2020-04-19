@@ -73,3 +73,4 @@ class ColumnChartReChart extends PureComponent {
           <YAxis />
           <Tooltip />
           <Legend height={30} verticalAlign="top" payload = {[{ value: "Daily new cases in "+this.props.info, type: 'line' }]}/>
+          <Bar dataKey="cases" fill="#8884d8" />
