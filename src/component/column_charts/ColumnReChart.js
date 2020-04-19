@@ -341,3 +341,6 @@ class ColumnChartReChart extends PureComponent {
 
 
       </div> 
+    );
+  }
+}
