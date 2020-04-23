@@ -4,7 +4,6 @@ function Contact (){
  return 
         <address> 
             
-        </address> 
 } 
   
 export default Contact; 
