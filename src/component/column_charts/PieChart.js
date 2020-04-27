@@ -11,3 +11,4 @@ import {
   } from "react-router-dom";
 
 class ColumnChartStates extends PureComponent {
+  constructor(props){
