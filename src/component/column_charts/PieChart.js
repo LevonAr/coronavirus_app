@@ -26,3 +26,4 @@ class ColumnChartStates extends PureComponent {
     .then((response) => {
         return response.text();
       })
+      .then((data) => {
