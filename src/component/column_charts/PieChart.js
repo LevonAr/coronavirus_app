@@ -19,5 +19,6 @@ class ColumnChartStates extends PureComponent {
 
   }
 
-  componentDidMount() {
-  
+  componentDidMount() { 
+    //scroll page up after clicking on state
+    window.scrollTo(0, 0)
