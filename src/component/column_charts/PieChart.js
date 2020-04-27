@@ -18,3 +18,6 @@ class ColumnChartStates extends PureComponent {
     }
 
   }
+
+  componentDidMount() {
+  
