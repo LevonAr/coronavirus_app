@@ -9,3 +9,5 @@ import {
     BrowserRouter,
     Switch
   } from "react-router-dom";
+
+class ColumnChartStates extends PureComponent {
