@@ -6,6 +6,7 @@ class ChartSelector extends React.Component {
       	fatality_chart:  FatalityChart,
 
 		};
+    this.selectChart = this.selectChart.bind(this);
 
 	};
 }
