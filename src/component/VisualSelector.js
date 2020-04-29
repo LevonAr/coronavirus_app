@@ -7,6 +7,7 @@ class ChartSelector extends React.Component {
 
 		};
     this.selectChart = this.selectChart.bind(this);
+    if(props.chart_type == "FatalityChart"){
 
 	};
 }
