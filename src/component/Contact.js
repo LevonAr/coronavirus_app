@@ -4,6 +4,7 @@ function Contact (){
   <div>
     <Layout>
       <Header> Header</Header>
+        <Content>Content</Content>
     
 } 
   
