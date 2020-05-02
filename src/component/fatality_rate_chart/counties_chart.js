@@ -3,7 +3,9 @@ import Chart from 'react-apexcharts'
 import './FPCC.css'
 class FatalityChartStates extends React.Component {
   constructor(props) {
+    super(props);
 
+    
     this.state = {
 
 
