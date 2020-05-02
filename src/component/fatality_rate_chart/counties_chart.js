@@ -63,4 +63,4 @@ class FatalityChartStates extends React.Component {
 
   componentDidMount() {
     window.scrollTo(0, 0)
-    fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/utility/county_data.json")
+    fetch()
