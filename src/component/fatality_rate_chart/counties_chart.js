@@ -37,3 +37,9 @@ class FatalityChartStates extends React.Component {
         plotOptions: {
           pie: {
             donut: {
+              labels: {
+                show: true,
+                name: {},
+                value: {}
+              }
+            }
