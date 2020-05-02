@@ -33,3 +33,7 @@ class FatalityChartStates extends React.Component {
             return val + ": " + opts.w.globals.series[opts.seriesIndex]
           }
         },
+
+        plotOptions: {
+          pie: {
+            donut: {
