@@ -20,3 +20,16 @@ class FatalityChartStates extends React.Component {
         dataLabels: {
           enabled: true
         },
+        fill: {
+          type: 'gradient',
+        },
+        labels:["Deaths","Active Cases"],
+        legend: {
+          inverseOrder: true,
+          fontSize: '30px',
+          fontFamily: 'Avenir Next',
+          position: 'top',
+          formatter: function(val, opts) {
+            return val + ": " + opts.w.globals.series[opts.seriesIndex]
+          }
+        },
