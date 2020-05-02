@@ -53,3 +53,11 @@ class FatalityChartStates extends React.Component {
             legend: {
               position: 'bottom'
             }
+          }
+        }]
+      },
+    
+    
+    };
+  }
+
