@@ -67,4 +67,5 @@ class FatalityChartStates extends React.Component {
     /*
     */
   }
-    
+      render() {
+    return (
