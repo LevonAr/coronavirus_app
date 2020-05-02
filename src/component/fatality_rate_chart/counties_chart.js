@@ -14,3 +14,7 @@ class FatalityChartStates extends React.Component {
           width: 380,
           type: 'donut',
         },
+        colors:["#D7263D","#008FFB"],
+        dataLabels: {
+          enabled: true
+        },
