@@ -43,3 +43,13 @@ class FatalityChartStates extends React.Component {
                 value: {}
               }
             }
+     },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
