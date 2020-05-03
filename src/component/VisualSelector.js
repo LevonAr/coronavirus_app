@@ -12,9 +12,7 @@ class ChartSelector extends React.Component {
       options: {
    
         colors:["#55BCC9","#3FEEE6","#97CAEF","#FC4445"],
-        dataLabels: {
-          enabled: true
-        },
+ 
         fill: {
           type: 'gradient',
         },
