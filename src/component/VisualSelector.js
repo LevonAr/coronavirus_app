@@ -3,6 +3,27 @@ import React from 'react';
 class ChartSelector extends React.Component {
 	constructor(props) {
     	super(props);
+		
+    this.state = {
+
+
+      total: 0 ,
+      series: [],
+      options: {
+        chart: {
+          width: 380,
+          type: 'donut',
+        },
+        colors:["#55BCC9","#3FEEE6","#97CAEF","#FC4445"],
+        dataLabels: {
+          enabled: true
+        },
+        fill: {
+          type: 'gradient',
+        },
+        labels:["Non-Hospitalized Cases","Recovered","Hospitalized Cases","Deaths"],
+        //labels:["Deaths","Active Cases"],
+
       	fatality_chart:  FatalityChart,
 
 		};
