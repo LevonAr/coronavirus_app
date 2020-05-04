@@ -9,7 +9,6 @@ class FatalityChartStates extends React.Component {
 	  
     this.state = {
 
-
       total: 0 ,
       series: [],
       options: {
@@ -61,7 +60,7 @@ class FatalityChartStates extends React.Component {
     
     };
   }
-  	handleClick(event) {
+  handleClick(event) {
 		this.setState({
 			selected_chart_type: event.target.value
 		})
