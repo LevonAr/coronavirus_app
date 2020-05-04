@@ -64,7 +64,9 @@ class FatalityChartStates extends React.Component {
 		this.setState({
 			selected_chart_type: event.target.value
 		})
+	}
 
+	myfunction() {
   componentDidMount() {
     window.scrollTo(0, 0)
     fetch()
