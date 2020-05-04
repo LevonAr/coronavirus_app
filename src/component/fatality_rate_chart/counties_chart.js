@@ -60,6 +60,8 @@ class FatalityChartStates extends React.Component {
     
     };
   }
+  	handleClick(event) {
+
 
   componentDidMount() {
     window.scrollTo(0, 0)
