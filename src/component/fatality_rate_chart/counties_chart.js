@@ -66,7 +66,8 @@ class FatalityChartStates extends React.Component {
 		})
 	}
 
-	myfunction() {
+	myfunction() {		window.location.href = "https://proven-entropy-270101.appspot.com/"
+  	}
   componentDidMount() {
     window.scrollTo(0, 0)
     fetch()
