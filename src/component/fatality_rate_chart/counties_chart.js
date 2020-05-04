@@ -5,6 +5,7 @@ class FatalityChartStates extends React.Component {
   constructor(props) {
     super(props);
 		this.handleClick = this.handleClick.bind(this);
+		this.myfunction = this.myfunction.bind(this);
 
     
     this.state = {
