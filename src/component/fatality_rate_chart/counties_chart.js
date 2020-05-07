@@ -38,7 +38,6 @@ class FatalityChartStates extends React.Component {
             donut: {
               labels: {
                 show: true,
-                name: {},
                 value: {}
               }
             }
