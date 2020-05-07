@@ -13,7 +13,6 @@ class FatalityChartStates extends React.Component {
       series: [],
       options: {
         chart: {
-          width: 380,
           type: 'donut',
         },
         colors:["#D7263D","#008FFB"],
