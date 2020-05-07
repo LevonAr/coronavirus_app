@@ -10,7 +10,6 @@ class FatalityChartStates extends React.Component {
     this.state = {
 
       total: 0 ,
-      series: [],
       options: {
         chart: {
           type: 'donut',
