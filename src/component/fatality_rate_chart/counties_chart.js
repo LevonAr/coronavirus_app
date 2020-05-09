@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Chart from 'react-apexcharts'
 import './FPCC.css'
+import logo from './logo.png'
+
 class FatalityChartStates extends React.Component {
   constructor(props) {
     super(props);          
