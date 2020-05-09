@@ -26,7 +26,6 @@ class FatalityChartStates extends React.Component {
         labels:["Deaths","Active Cases"],
         legend: {
           inverseOrder: true,
-          fontSize: '30px',
           position: 'top',
           formatter: function(val, opts) {
             return val + ": " + opts.w.globals.series[opts.seriesIndex]
