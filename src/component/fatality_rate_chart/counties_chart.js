@@ -89,3 +89,13 @@ class FatalityChartStates extends React.Component {
 				
 				<a href="https://github.com/LevonAr"><span className="hidden-xs text-muted">DevLev</span></a>
 			</Navbar>*/}		 
+
+
+					<Layout>
+      					<Header style={{ position: 'fixed', zIndex: 1, width: '100%' }} className="header">
+						  	<div class="flex-container">
+								  
+								<button><img src={logo} alt="Covid-19 HomePage Link" onClick={this.myfunction}/></button>
+
+								<div class="inner-flex-container">
+									<>
