@@ -104,3 +104,6 @@ class FatalityChartStates extends React.Component {
 										<ToggleButton variant="secondary" value={"NewCasesChart"} onChange={this.handleClick} >Daily New Cases</ToggleButton>
 									</ToggleButtonGroup>
 									</>
+								</div>     							 
+							</Container>
+						</Col>	
