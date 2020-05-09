@@ -101,7 +101,6 @@ class FatalityChartStates extends React.Component {
 									<>
 									<ToggleButtonGroup type="radio" name="options" defaultValue={"FatalityChart"}>
 										<ToggleButton variant="secondary" value={"FatalityChart"} onChange={this.handleClick} >Fatality Rate</ToggleButton>
-										<ToggleButton variant="secondary" value={"NewCasesChart"} onChange={this.handleClick} >Daily New Cases</ToggleButton>
 									</ToggleButtonGroup>
 									</>
 								</div>     							 
