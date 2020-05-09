@@ -76,8 +76,6 @@ class FatalityChartStates extends React.Component {
 					<img
 						src={logo}
 					/>	
-
-				</Navbar.Brand>
 			
 				</Navbar.Brand>
 				
