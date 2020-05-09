@@ -80,8 +80,6 @@ class FatalityChartStates extends React.Component {
 
 				</Navbar.Brand>
 			
-				<Navbar.Brand href="/">
-
 				</Navbar.Brand>
 				
 				<a href="https://github.com/LevonAr"><span className="hidden-xs text-muted">DevLev</span></a>
