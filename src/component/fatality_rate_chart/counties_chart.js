@@ -68,3 +68,24 @@ class FatalityChartStates extends React.Component {
   }
       render() {
     return (
+		<div>
+
+			{/*<Navbar bg="dark" variant="dark">
+				
+				<Navbar.Brand href="/">
+					<img
+						src={logo}
+						width="30"
+						height="30"
+						className="d-inline-block align-top"
+						alt="Covid19 Logo"
+					/>	
+
+				</Navbar.Brand>
+			
+				<Navbar.Brand href="/">
+
+				</Navbar.Brand>
+				
+				<a href="https://github.com/LevonAr"><span className="hidden-xs text-muted">DevLev</span></a>
+			</Navbar>*/}		 
