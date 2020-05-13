@@ -113,11 +113,7 @@ class ColumnChartReChart extends PureComponent {
                 California
                 </Button>    
                 </NavLink> 
-                <NavLink exact to="/Colorado">     
-                <Button variant="outline-dark" size="lg" block>
-                Colorado
-                </Button>    
-                </NavLink> 
+     
                 <NavLink exact to="/Connecticut">     
                 <Button variant="outline-dark" size="lg" block>
                 Connecticut
