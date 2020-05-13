@@ -57,8 +57,6 @@ class ColumnChartReChart extends PureComponent {
         </br>
         <br>
         </br>
-        <br>
-        </br>
         <div class="shadow-lg p-3 mb-5 rounded bg-white border border-dark" >
         <BarChart
           width={1070}
