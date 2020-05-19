@@ -30,3 +30,7 @@ class Dropdown extends React.Component {
 		this.setState({
 			countries : [
 				{ name: 'USA', states: [{"name": "Alabama", "cities": ["Autauga", "Baldwin", "Barbour", "Bibb", "Blount", "Bullock", "Butler", "Calhoun", "Chambers", "Cherokee", "Chilton", "Choctaw", "Clarke", "Clay", "Cleburne", "Coffee", "Colbert", "Conecuh", 
+				{ name: 'more coming soon', states: [ {name: '', cities: ['']} ] }
+			]
+		});
+	}
