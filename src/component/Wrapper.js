@@ -38,3 +38,4 @@ class Dropdown extends React.Component {
 		this.setState({selectedCountry: event.target.value});
 		this.setState({states : this.state.countries.find(cntry => cntry.name === event.target.value).states});
 	}
+	changeState(event) {
