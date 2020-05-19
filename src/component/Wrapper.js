@@ -20,3 +20,9 @@ class Dropdown extends React.Component {
             selectedState : '--Choose State--',
             selectedCounty : '--Choose County'
 		};
+		this.changeCountry = this.changeCountry.bind(this);
+        this.changeState = this.changeState.bind(this);
+        this.changeCounty = this.changeCounty.bind(this);
+
+	}
+  
