@@ -46,3 +46,5 @@ class Dropdown extends React.Component {
     }
     changeCounty(event) {
         this.setState({selectedCounty: this.state.selectedState+", "+ event.target.value});
+        console.log(this.state)
+    }
