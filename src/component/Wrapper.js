@@ -12,3 +12,11 @@ import Badge from 'react-bootstrap/Badge'
 class Dropdown extends React.Component {
 	constructor(props) {
 		super(props);
+		this.state = {
+			countries : [],
+			states : [],
+			cities : [],
+			selectedCountry : '--Choose Country--',
+            selectedState : '--Choose State--',
+            selectedCounty : '--Choose County'
+		};
