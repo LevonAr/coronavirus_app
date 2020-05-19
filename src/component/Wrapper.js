@@ -44,3 +44,4 @@ class Dropdown extends React.Component {
         this.setState({cities : stats.find(stat => stat.name === event.target.value).cities});
         
     }
+    changeCounty(event) {
