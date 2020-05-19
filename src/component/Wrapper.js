@@ -9,3 +9,6 @@ import {
 
 import Button from 'react-bootstrap/Button'
 import Badge from 'react-bootstrap/Badge'
+class Dropdown extends React.Component {
+	constructor(props) {
+		super(props);
