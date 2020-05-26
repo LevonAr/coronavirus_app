@@ -5,3 +5,4 @@ import ColumnChartCounty from './column charts/Column Chart County';
 class ChartSelector extends React.Component {
 	constructor(props) {
     super(props);
+    this.state = {
