@@ -21,3 +21,5 @@ class ChartSelector extends React.Component {
       const SpecificChart = this.state.new_cases_chart
       return <SpecificChart info={props.info}/>;
     }
+  }
+  render() {
