@@ -9,3 +9,6 @@ class ChartSelector extends React.Component {
       fatality_chart:  FatalityChart,
       new_cases_chart: ColumnChartCounty
 		};
+		};
+    this.selectChart = this.selectChart.bind(this);
+	}
