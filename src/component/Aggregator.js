@@ -12,3 +12,4 @@ class ChartSelector extends React.Component {
     this.selectChart = this.selectChart.bind(this);
 	}
 
+	selectChart(props) {
