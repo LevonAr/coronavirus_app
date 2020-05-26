@@ -15,3 +15,4 @@ class ChartSelector extends React.Component {
 	selectChart(props) {
     if(props.chart_type == "FatalityChart"){
       const SpecificChart = this.state.fatality_chart
+      return <SpecificChart info={props.info}/>;
