@@ -13,3 +13,4 @@ class ChartSelector extends React.Component {
 	}
 
 	selectChart(props) {
+    if(props.chart_type == "FatalityChart"){
