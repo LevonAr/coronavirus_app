@@ -29,3 +29,4 @@ class ChartSelector extends React.Component {
       </div>
     )
   }
+}
