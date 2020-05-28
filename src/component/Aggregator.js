@@ -24,10 +24,4 @@ class ChartSelector extends React.Component {
 
       <br>
       </br>
-    )
-  }
 
-
-
-
-}
