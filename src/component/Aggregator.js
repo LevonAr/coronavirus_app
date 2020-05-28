@@ -30,3 +30,4 @@ class ChartSelector extends React.Component {
     )
   }
 }
+export default ChartSelector;
