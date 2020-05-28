@@ -20,9 +20,10 @@ class ChartSelector extends React.Component {
   }
   render() {
     return (
-      <div>
-          {this.selectChart(this.props)}
-      </div>
+      <div id="main">
+
+      <br>
+      </br>
     )
   }
 
