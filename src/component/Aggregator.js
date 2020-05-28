@@ -21,7 +21,7 @@ class ChartSelector extends React.Component {
   render() {
     return (
       <div id="main">
-
+      <br></br>
       <center>
       <div id="font" class="shadow p-3 mb-0 rounded bg-white border ">
         Total Confirmed Cases in {this.props.info}: {this.state.total}
