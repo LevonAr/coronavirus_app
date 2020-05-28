@@ -27,3 +27,5 @@ class ChartSelector extends React.Component {
         Total Confirmed Cases in {this.props.info}: {this.state.total}
       </div>
       </div>
+    )
+  }
