@@ -7,7 +7,7 @@ class ChartSelector extends React.Component {
     super(props);
     this.state = {
       fatality_chart:  FatalityChart,
-      new_cases_chart: ColumnChartCounty
+      new_cases_chart: ColumnChart,
 		};
     this.selectChart = this.selectChart.bind(this);
 	}
