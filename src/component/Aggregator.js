@@ -2,7 +2,7 @@ import React from 'react';
 import FatalityChart from './fatality pie charts/Fatality Pie Chart Counties';
 import ColumnChartCounty from './column charts/Column Chart County';
 
-class ChartSelector extends React.Component {
+class Aggregator extends React.Component {
 	constructor(props) {
     super(props);
     this.state = {
@@ -29,4 +29,4 @@ class ChartSelector extends React.Component {
     )
   }
 }
-export default ChartSelector;
+export default Aggregator;
