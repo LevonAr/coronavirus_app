@@ -29,4 +29,4 @@ class Aggregator extends React.Component {
     )
   }
 }
-export default Aggregator;
+export default Aggregator ;
